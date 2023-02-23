@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <style>
+        .material-symbols-outlined {
+            font-variation-settings:
+                'FILL' 0,
+                'wght' 400,
+                'GRAD' 0,
+                'opsz' 48
+        }
+    </style>
+    <title>Contacto - Julianne</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header-main-row">
+            <span class="material-symbols-outlined">search</span>
+            <a href="/index.html"><img src="logo.svg" alt="logo" class="header-logo"> </a>
+            <span class="material-symbols-outlined">
+                shopping_bag
+            </span>
+        </div>
+
+        <nav class="header-secundary-row">
+
+            <a class="header-link" href="/news.html">Novedades</a>
+            <a class="header-link" href="/offers.html">Ofertas</a>
+            <a class="header-link" href="/contact.html">Contacto</a>
+            <a class="header-link" href="/shopping-bag.html">Carrito</a>
+
+        </nav>
+    </header>
+    <main class="main">
+        <h1 class="main-title">
+            Contacto
+        </h1>
+        <div class="main-contact-label">
+            <p>Para atención inmediata no dudes en contactarnos. Estaremos felices de atenderte</p>
+        </div>
+        <form action="#" class="form-contact">
+            <div class="form-contact-items">
+                <div class="form-contact-item">
+                    <label for="nombre"> Nombre</label>
+                    <input type="text" name="nombre" required>
+                </div>
+
+                <div class="form-contact-item">
+                    <label for="email"> Correo</label>
+                    <input type="text" name="email" required>
+                </div>
+
+            </div>
+
+            <label for="mensaje">Mensaje</label>
+
+            <textarea name="mensaje" cols="20" rows="10" placeholder="Escribe tu mensaje"></textarea>
+
+            <button type="submit">
+                Enviar
+            </button>
+        </form>
+    </main>
+    <footer class="footer">
+        Hecho con ❤️ by Julianne
+    </footer>
+
+</body>
+
+</html>
