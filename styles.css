@@ -31,7 +31,7 @@ body {
 }
 
 .header-secundary-row {
-    background-color: black;
+    background-color: red;
     height: 40px;
     display: flex;
     justify-content: space-around;

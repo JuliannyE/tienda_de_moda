@@ -1,0 +1,25 @@
+{
+  "name": "01-paginas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "node-sass -w scss -o css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JuliannyE/tienda_de_moda.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JuliannyE/tienda_de_moda/issues"
+  },
+  "homepage": "https://github.com/JuliannyE/tienda_de_moda#readme",
+  "devDependencies": {
+    "node-sass": "^8.0.0",
+    "nodemon": "^2.0.21"
+  }
+}

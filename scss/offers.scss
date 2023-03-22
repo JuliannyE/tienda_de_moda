@@ -1,0 +1,13 @@
+.main-offers {
+
+    display: flex;
+    flex-direction: row;
+
+    .item-price {
+        text-decoration: line-through;
+    }
+
+    .item-discount {
+        color: red;
+    }
+}

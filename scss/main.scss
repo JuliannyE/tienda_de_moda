@@ -1,0 +1,91 @@
+main {
+
+    overflow-y: scroll;
+    padding-bottom: 10px;
+    .main-hero-img {
+        width: 100%;
+    }
+
+    .main-collage {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .main-collage img {
+        width: 50%;
+    }
+
+    &.main_secundary {
+        display: grid;
+        grid-template-rows: 80px auto;
+
+        h1 {
+            font-size: 30px;
+            text-align: center;
+        }
+
+        .main-collage {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+
+            .collage-element {
+
+                display: flex;
+                flex-direction: column;
+
+                img {
+                    width: 100%;
+                    height: 250px;
+                }
+
+                button {
+                    background-color: white;
+                    height: 30px;
+                    color: black;
+                    border-radius: 15px;
+                }
+            }
+
+        }
+
+        .carrito {
+            display: flex;
+            flex-direction: column;
+            padding-left: 30px;
+            padding-right: 30px;
+
+            .carrito-element {
+                display: flex;
+                align-items: center;
+                align-self: center;
+                gap: 20px;
+
+                img{
+                    width: 30%;
+                }
+
+                button{
+                    background-color: white;
+                    height: 30px;
+                    width: 100px;
+                    color: black;
+                    border-radius: 15px;
+                }
+                
+            }
+
+            button {
+                background-color: white;
+                align-self: flex-end;
+                height: 30px;
+                width: 250px;
+                color: black;
+                border-radius: 15px;
+            }
+
+        }
+    }
+}

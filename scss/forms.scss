@@ -1,0 +1,32 @@
+form {
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+    padding-right: 30px;
+    gap: 10px;
+
+    .form-label {
+        text-align: center;
+        font-weight: 300;
+    }
+
+    .form-contact-items {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    input {
+        width: 250px;
+    }
+
+    button {
+        background-color: white;
+        align-self: center;
+        height: 30px;
+        width: 250px;
+        color: black;
+        border-radius: 15px;
+    }
+
+}
