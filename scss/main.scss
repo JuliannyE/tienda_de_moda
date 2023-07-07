@@ -2,6 +2,7 @@ main {
 
     overflow-y: scroll;
     padding-bottom: 10px;
+
     .main-hero-img {
         width: 100%;
     }
@@ -51,6 +52,16 @@ main {
 
         }
 
+        form {
+            width: 600px;
+            justify-self: center;
+        }
+
+
+        button {
+            cursor: pointer;
+        }
+
         .carrito {
             display: flex;
             flex-direction: column;
@@ -63,18 +74,18 @@ main {
                 align-self: center;
                 gap: 20px;
 
-                img{
+                img {
                     width: 30%;
                 }
 
-                button{
+                button {
                     background-color: white;
                     height: 30px;
                     width: 100px;
                     color: black;
                     border-radius: 15px;
                 }
-                
+
             }
 
             button {
@@ -87,5 +98,24 @@ main {
             }
 
         }
+
+        .boton-pago {
+
+            display: flex;
+            justify-content: end;
+
+            button {
+                cursor: pointer;
+                background-color: black;
+                color: white;
+                font-weight: bold;
+                font-size: large;
+                height: 60px;
+                width: 200px;
+                border-radius: 15px;
+            }
+        }
+
+
     }
 }
